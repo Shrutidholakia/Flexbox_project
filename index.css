@@ -1,0 +1,53 @@
+body{
+margin: 10px 10px 10px 10px;
+}
+.header{
+  margin: 3px 3px 3px 3px;
+  border-top: 1px solid grey;
+  border-bottom: 3px solid black;
+}
+li{
+  font-size: 1em;
+  display: inline;
+}
+.nav-list2{
+  padding: 10px 10px 10px 10px;
+  border-right: 1px solid grey;
+}
+.nav-list3{
+  padding: 10px 10px 10px 10px;
+  border: none;
+}
+.nav-list{
+  font-size: 3em;
+  margin-right: 800px;
+  color: #191970;
+}
+.main{
+ display:flex;
+ justify-content: center;
+ width: 100%;
+ align-items: stretch;
+}
+.topic{
+  border: 2px solid grey;
+  width: 300px;
+  height: 100px;
+  box-sizing: border-box;
+}
+h1{
+  font-size: 0.9em;
+}
+
+h2{
+  font-size: .7em;
+}
+h3{
+  font-size: .7em;
+}
+.course{
+  float: left;
+}
+.rate{
+  float: right;
+}
