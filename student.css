@@ -1,0 +1,68 @@
+body{
+margin: 10px 10px 10px 10px;
+  background-image: url("Images/Zootopia.jpg")
+
+}
+.header{
+  margin: 3px 3px 3px 3px;
+  border-top: 1px solid grey;
+  border-bottom: 3px solid black;
+}
+li{
+  font-size: 1.1em;
+  display: inline;
+  font-style: oblique;
+}
+.nav-list2{
+  padding: 10px 10px 10px 10px;
+  border-right: 1px solid grey;
+}
+.nav-list3{
+  padding: 10px 10px 10px 10px;
+  border: none;
+}
+.nav-list{
+  font-size: 3em;
+  margin-right: 800px;
+  color: white;
+  font-family: 'Dancing Script', cursive;
+}
+.main{
+  display:flex;
+  justify-content:space-around;
+  width: 100%;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+.topic{
+  border: 2px solid black;
+  width: 400px;
+  height: 400px;
+  background-image: url("Images/wood.jpg");
+}
+p{
+  font-size: 1.5em;
+  text-align: center;
+}
+.image{
+  width: 150px;
+  height: 141px;
+  border-radius: 25px;
+  margin: 10px 1px 1px 120px;
+  display: flex;
+}
+h1{
+  font-size: 1.2em;
+  text-align: center;
+
+}
+.teacher{
+    border: 2px solid black;
+    height: 200px;
+    width: 400px;
+  }
+.course{
+    border: 2px solid black;
+    height: 196px;
+    width: 400px;
+}

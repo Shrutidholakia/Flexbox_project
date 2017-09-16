@@ -31,7 +31,6 @@ li{
   display:flex;
   justify-content:space-around;
   width: 100%;
-  flex-wrap: nowrap;
   margin-bottom: 50px;
   margin-top: 50px;
 }
@@ -39,83 +38,43 @@ li{
   display:flex;
   justify-content:space-around;
   width: 100%;
-  flex-wrap: nowrap;
+
 }
 .topic{
   border: 2px solid black;
   width: 400px;
-  height: 300px;
+  height: 90px;
   background-image: url("Images/wood.jpg");
 }
-
-.topic-end{
+.topic-start{
   border: 2px solid black;
   width: 400px;
-  height: 300px;
+  height: 90px;
   background-image: url("Images/wood.jpg");
 }
-h1{
-  font-size: 1.2em;
+p{
+  font-size: 1em;
+  text-align: center;
   float: right;
-  margin-bottom: 45px;
-  margin-right: 75px;
-}
+  border-left: 2px solid black;
+  height: 70px;
+  margin-right: 50px;
+  padding-left: 20px;
 
+}
 h2{
-  font-size: 1.5em;
+  font-size: 2em;
   text-align: center;
+  float: left;
+  margin-left: 30px;
+  color: #FF4500;
 }
-h3{
-  font-size: 1.5em;
+.teacher{
+  width: 200px;
   text-align: center;
-
-}
-.image{
-  width: 150px;
-  height: 141px;
-  border-radius: 25px;
-  margin: 1px 1px 1px 5px;
-}
-.imagea{
-  width: 150px;
-  height: 141px;
-  border-radius: 25px;
-  margin: 1px 1px 1px 5px;
-}
-.imageb{
-  width: 150px;
-  height: 141px;
-  border-radius: 25px;
-  margin: 1px 1px 1px 5px;
-}
-.imagej{
-  width: 150px;
-  height: 141px;
-  border-radius: 25px;
-  margin: 1px 1px 1px 5px;
-}
-.imagen{
-  width: 150px;
-  height: 141px;
-  border-radius: 25px;
-  margin: 1px 1px 1px 5px;
 }
 .course{
-  border: 2px solid black;
-  height: 150px;
   width: 400px;
-  display: flex;
-}
-.rate{
-  width: 50%;
-  border-left: 2px solid black;
-}
-.subject{
-  width: 50%;
-  margin: 0;
-}
-.teach{
-  border: 2px solid black;
-  height: 145px;
-  width: 400px;
+  margin-right: 100px;
+  text-align: center;
 }
